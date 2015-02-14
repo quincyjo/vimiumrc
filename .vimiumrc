@@ -10,12 +10,18 @@ unmap >>
 unmap <<
 map > goNext
 map < goPrevious
+map U scrollFullPageUp
+map D scrollFullPageDown
+map zh scrollToLeft
+map zl scrollToRight
+map zf LinkHints.activateModeToOpenIncognito
 map <a-k> moveTabRight
 map <a-j> moveTabLeft
 map <a-K> closeTabsOnRight
 map <a-J> closeTabsOnLeft
-map U scrollFullPageUp
-map D scrollFullPageDown
+map <c-X> closeOtherTabs
+map <c-k> <ESC>
+map <c-F> LinkHints.activateModeToOpenInNewForegroundTab
 
 
 #Custom search engines
