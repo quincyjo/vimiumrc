@@ -1,15 +1,16 @@
-#Excluded URLs and keys
-#Format:
-#Patterns:Keys
+###Excluded URLs and keys###
+# Format:
+# Patterns:Keys
 http*://mail.google.com/*:jkgic
 http*://docs.google.com/*:
 http*://soundcloud.com/*:h
 http*://app.roll20.net/editor/*:wcij/nN;[
-http*://github.com/*:sgndcipw
-http*://twitter.com/*:rmnljkghp
+http*://github.com/*:sgndcipw?
+http*://twitter.com/*:rmnljkghp?
+###End###
 
 
-#Custom key mappings
+###Custom key mappings###
 unmap >>
 unmap <<
 map > goNext
@@ -24,11 +25,18 @@ map <a-j> moveTabLeft
 map <a-K> closeTabsOnRight
 map <a-J> closeTabsOnLeft
 map <c-X> closeOtherTabs
-map <c-k> <ESC>
 map <c-F> LinkHints.activateModeToOpenInNewForegroundTab
+" Doesn't actually work, but want implemented (plus Chrome hotkey)
+map <c-k> <ESC>
+" Alternative help command to allow access to native help
+map <c-?> showHelp
+" Alternative to gg/G as in Vim when native hotkeys exist
+map $ scrollToBottom
+map ^ scrollToTop
+###End###
 
 
-#Custom search engines
+###Custom search engines###
 #amazon
 a: https://www.amazon.com/s/field-keywords=%s
 
@@ -71,15 +79,21 @@ sa: https://soundcloud.com/%s
 t: https://www.twitch.tv/search?query=%s
 tc: https://www.twitch.tv/%s
 
+#twitter
+tw: https://twitter.com/search?q=%s
+ts: https://twitter.com/%s
+tu: https://twitter.com/%s
+
 #wikipedia
 w: https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s
 
 #youtube
 y: https://www.youtube.com/results?search_query=%s
 yc: https://www.youtube.com/%s
+###End###
 
 
-#CSS for link hints
+###CSS for link hints###
 div > .vimiumHintMarker {
 /* linkhint boxes */
 background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#ddd));
@@ -101,3 +115,4 @@ div > .vimiumHintMarker > .matchingCharacter {
 /* bufferent linkhint text */
 color: #966;
 }
+###End###
