@@ -1,8 +1,10 @@
 #Excluded URLs and keys
-http*://mail.google.com/*:jk
-http*://docs.google.com/*
+http*://mail.google.com/*:jkgic
+http*://docs.google.com/*:
 http*://soundcloud.com/*:h
-http*://app.roll20.net/editor/:wcij/nN;[
+http*://app.roll20.net/editor/*:wcij/nN;[
+http*://github.com/*:sgndcipw
+http*://twitter.com/*rmnljkghp
 
 
 #Custom key mappings
