@@ -1,7 +1,7 @@
 ###Excluded URLs and keys###
 # Format:
 # Patterns:Keys
-http*://mail.google.com/*:jkgic
+http*://mail.google.com/*:jkgic?anrux
 http*://docs.google.com/*:
 http*://soundcloud.com/*:h
 http*://app.roll20.net/editor/*:wcij/nN;[
