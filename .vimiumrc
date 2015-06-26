@@ -2,8 +2,8 @@
 # Format:
 # Patterns:Keys
 http*://mail.google.com/*:jkgic?anrux
-http*://docs.google.com/*:
-http*://soundcloud.com/*:h
+http*://docs.google.com/*
+http*://soundcloud.com/*:hsmpl
 http*://app.roll20.net/editor/*:wcij/nN;[
 http*://github.com/*:sgndcipw?
 http*://twitter.com/*:rmnljkghp?
@@ -26,8 +26,6 @@ map <a-K> closeTabsOnRight
 map <a-J> closeTabsOnLeft
 map <c-X> closeOtherTabs
 map <c-F> LinkHints.activateModeToOpenInNewForegroundTab
-" Doesn't actually work, but want implemented (plus Chrome hotkey)
-map <c-k> <ESC>
 " Alternative help command to allow access to native help
 map <c-?> showHelp
 " Alternative to gg/G as in Vim when native hotkeys exist
